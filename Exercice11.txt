@@ -1,0 +1,17 @@
+Algorithme Factorielle 
+Variable i,N,F: entier
+Debut
+    Afficher ("entrez un nombre N")
+    Lire(N)
+    Si(N=0)Alors
+    Afficher('La Factorielle est 1')
+        Sinon
+        F<- 1
+        Pour  i<- 1à N faire
+        F<- F*i
+        FinPour
+        Écrire('La factorielle est:',F)
+        FinSi
+Fin
+    
+    

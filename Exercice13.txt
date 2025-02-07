@@ -1,0 +1,15 @@
+//calcul de 1*2*3*...*n
+Algorithme Multiplication_de_1*2*...*n
+Variable i,n,m: entiers
+
+Début
+     Ecrire("Entrez un nombre n");
+     Lire(n);
+     m<- 1;
+     Pour(i<- 1; i<- n; i++)
+     m<- m *i;
+     FinPour
+     Ecrire("Le produit de 1*2*3*...*n est :",m)
+     
+	
+Fin

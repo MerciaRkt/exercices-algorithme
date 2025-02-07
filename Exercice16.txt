@@ -1,0 +1,16 @@
+Algorithme Somme de 1!+2!+...+n!
+Variable
+       i,n,s,f: entier
+
+Début
+  Ecrire ("Entrez un nombre n");
+  Lire(n);
+  f <- 1;
+  s<- 0;
+  Pour (i<- 1; i<=n ; i++)
+  f<- f*i;
+  s<- s +f ;
+  FinPour
+  Ecrire ("La somme 1!+2!+...+n!est :",s);
+	
+Fin

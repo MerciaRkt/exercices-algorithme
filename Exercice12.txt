@@ -1,0 +1,14 @@
+//Calcul de la somme 1+2+3+....+n
+Algorithme Sommede1+2+3+...+n
+Variable i,n,s:entiers
+
+Début
+    Ecrire("Veuillez entrer un nombre n");
+    Lire(n);
+    s<- 0;
+    Pour(i<- 1; i<=n; i++)
+    s<- s+i;
+    FinPour
+    Afficher("La Somme de 1+2+3+...+n est:",s)
+    	
+Fin

@@ -1,0 +1,15 @@
+//calcul qui affiche la somme 1+10+10^2+...+10^n
+Algorithme Somme de 1+10+10^2+...+10^n
+Variable 
+     i,n,s :entiers
+     
+Début
+     Ecrire("entrez un nombre n");
+     Lire(n);
+     s<- 0;
+     Pour (i<- 0 ; i<=n ;i++)
+     s<- s+(10^i);
+     FinPour
+     Ecrire ("la somme de 1+10+10^2+...+10^n est:",s)
+	
+Fin

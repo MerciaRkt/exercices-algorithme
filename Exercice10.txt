@@ -1,0 +1,14 @@
+Algorithme Diviseursden
+Variable i,n: entiers
+
+Début
+     Ecrire("entrez un nombre n: ");
+     Lire(n);
+     i<- 1;
+     Tantque (i<n) faire 
+        Si (n%i=0) Alors
+        Ecrire("Les diviseurs de n sont :",i);
+        FinSi
+     FinTantque
+	
+Fin

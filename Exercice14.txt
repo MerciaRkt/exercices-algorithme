@@ -1,0 +1,4 @@
+Algorithme Exercice14
+Début
+	
+Fin
