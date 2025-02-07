@@ -1,0 +1,14 @@
+//somme et moyenne
+Algorithme somme et moyenne
+Variable
+ 	a,b,s,m: reels 
+ 	
+Début
+	ecrire('entrez la note a : ');
+	lire(a);
+	ecrire("entrez la note b:")
+	lire(b);
+	s<- a+b;
+	m/<- s/2;
+	ecrire('La somme des deux notes est',s "et la moyenne est",m);
+Fin

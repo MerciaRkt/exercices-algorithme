@@ -1,0 +1,12 @@
+Algorithme permutation 
+variable a,b,c : entier 
+Debut 
+  Écrire ('entrez la valeur de a')
+  Lire(a)
+  Ecrire('entrez la valeur de b')
+  Lire(b)
+  c<-a
+  a<-b
+  b<-c
+  Afficher('la valeur de a est',a,'et la valeur de B est',b)
+Fin

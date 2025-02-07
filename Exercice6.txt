@@ -1,0 +1,20 @@
+//somme et moyenne
+Algorithme moyenne de deux notes
+Variable
+ 	a,b,coefa,coefb,m,c,d: reels 
+ 	
+Début
+	ecrire('entrez la note a : ');
+	lire(a);
+	ecrire("entrez la note b:");
+	lire(b);
+	ecrire ("entrez la coefa");
+	lire(coefa);
+	ecrire ("entrz la coefb")
+	lire(coefb);
+	c<-(a*coefa)+(b*coefb);
+	d<- coefa+coefb;
+	m< c/ d;
+
+	ecrire('Leur moyenne est:"m);
+Fin

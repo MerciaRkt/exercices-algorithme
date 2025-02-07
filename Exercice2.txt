@@ -1,0 +1,14 @@
+Algorithme produit
+variable n,p: réel;
+Début
+    afficher ("entrer un nombre n");
+    lire (n);
+    afficher ("entrer un nombre p");
+    lire (p);
+    si (((n<0) et (p<0)) ou ((n>0) et (p>0))) alors
+            afficher ("leur produit est positif")
+            sinon
+            afficher ("leurs produit est negatif");
+    finsi
+	
+Fin

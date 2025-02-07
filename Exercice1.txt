@@ -1,0 +1,12 @@
+algorithme signe
+variable n: réel
+Debut
+    ecrire ("Entrer le nombre n" );
+    lire (n);
+ 
+        Si (n<0) alors 
+        ecrire ("ce nombre est negatif");
+        sinon
+        ecrire ("ce nombre est positif");
+        finsi
+ 

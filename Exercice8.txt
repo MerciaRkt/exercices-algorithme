@@ -1,0 +1,10 @@
+Algorithme 1jusqu a n
+variable
+i ,n: entier
+Début
+	ecrire('entrez une valeur n: ');
+	lire(n);
+	pour (i<- 1;i<= n;i++);
+	ecrire("i=",i);
+  FinPour
+Fin
