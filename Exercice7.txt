@@ -1,17 +1,17 @@
 //Affiche le maximum entre 3 valeurs: a,b et c
 Debut
-    Ecrire('entrez une valeur A')
-    Lire(A)
-    Ecrire ('entrez une valeur B')
-    Lire(B)
-    Ecrire('fntrez une valeur C')
-    Lire(C)
+    Ecrire('entrez une valeur A');
+    Lire(A);
+    Ecrire ('entrez une valeur B');
+    Lire(B);
+    Ecrire('fntrez une valeur C');
+    Lire(C);
         Si (A>B)ET(A>C)Alors
-        Ecrire ('La valeur maximum est A ')
+        Ecrire ('La valeur maximum est A ');
         SinonSi (B>A)ET(B>C)Alors
-        Ecrire ('La valeur maximumest B')
+        Ecrire ('La valeur maximumest B');
                     Sinon
-                    Ecrire ('La valeur maximum est C')
+                    Ecrire ('La valeur maximum est C');
                     FinSi
        
 Fin
