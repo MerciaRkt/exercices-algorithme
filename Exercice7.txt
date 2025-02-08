@@ -1,5 +1,4 @@
-Algorithme maximum
-Variable A,B,C: réel 
+//Affiche le maximum entre 3 valeurs: a,b et c
 Debut
     Ecrire('entrez une valeur A')
     Lire(A)
