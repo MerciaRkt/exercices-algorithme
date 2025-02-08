@@ -6,7 +6,7 @@ Variable
 Début
 	ecrire('entrez la note a : ');
 	lire(a);
-	ecrire("entrez la note b:")
+	ecrire("entrez la note b:");
 	lire(b);
 	s<- a+b;
 	m<- s/2;
