@@ -1,16 +1,18 @@
-Algorithme Factorielle 
+//Affiche le factoriel de n saisie au clavier
+
+Algorithme Factoriel
 Variable i,N,F: entier
 Debut
-    Afficher ("entrez un nombre N")
-    Lire(N)
+    Afficher ("entrez un nombre N");
+    Lire(N);
     Si(N=0)Alors
-    Afficher('La Factorielle est 1')
+    Afficher('La Factorielle est 1');
         Sinon
-        F<- 1
+        F<- 1;
         Pour  i<- 1à N faire
-        F<- F*i
+        F<- F*i;
         FinPour
-        Écrire('La factorielle est:',F)
+        Écrire('La factorielle est:',F);
         FinSi
 Fin
     
