@@ -7,6 +7,6 @@ Début
 	  Ecrire("Entrez un nombre n");
 	  Lire(n);
 	  Pour (i<- 2; i< n ;i<- i+2)
-	     Ecrire(" Les nombres pairs sont :",i)
+	     Ecrire(" Les nombres pairs sont :",i);
 	  FinPour
 Fin
