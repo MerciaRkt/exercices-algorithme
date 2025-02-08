@@ -1,3 +1,5 @@
+//Affiche si le nombre est positif ou négatif 
+
 algorithme signe
 variable n: réel
 Debut
