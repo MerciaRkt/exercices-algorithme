@@ -1,0 +1,17 @@
+//Calcul et affiche le pgcd de deux entiers a et b
+Algorithme pgcd de a et b
+Variable  a,b, reste: entiers
+
+Début
+ Ecrire("entrez a"); 
+ Lire(a);
+ Ecrire("entrez  b");
+ lire(b);
+ Tantque (b<>0) faire
+	reste <- (a%b);
+	a<- b;
+	b<- reste;
+  FinTantque
+  Ecrire("le pgcd de a et b est :",a);
+Fin
+)

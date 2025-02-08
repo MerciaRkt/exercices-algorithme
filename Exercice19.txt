@@ -1,0 +1,21 @@
+//Affiche si deux entiers a et b est premier entre eux ou non
+Algorithme premiers entre eux
+Variable  a,b, reste: entiers
+
+Début
+ Ecrire("entrez a: ");
+ Lire(a);
+ Ecrire("entrez  b: ");
+ lire(b);
+ Tantque (b<>0) faire
+	reste <- (a%b);
+	a<- b;
+	b<- reste;
+  FinTantque
+  
+  Si  (a = 1 ) Alors
+  Ecrire ("a et b sont premiers entre eux");
+  sinon
+  Ecrire ("a et b ne sont pas premiers entre eux");
+  FinSi
+Fin
