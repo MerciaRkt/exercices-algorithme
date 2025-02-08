@@ -1,3 +1,5 @@
+//Echanges des valeurs de deux variables a et b
+
 Algorithme permutation 
 variable a,b,c : entier 
 Debut 
