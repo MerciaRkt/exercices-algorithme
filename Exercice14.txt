@@ -1,4 +1,16 @@
-Algorithme Exercice14
+// calcul  de 1/1 +1/2 a+...+ 1/n
+Algorithme Somme de 1/1 +1/2 a+...+ 1/n
+Variable
+       i,n: entiers
+       s:réel
+
 Début
+     Ecrire ("Entrez un nombre n");
+     Lire(n);
+     s<- 0;
+     Pour (i<- 1;i<= n;i++);
+     s<- s+(1/ i);
+     FinPour
+     Ecrire ("La Somme est :",s);
 	
 Fin
