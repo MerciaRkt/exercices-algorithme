@@ -8,7 +8,7 @@ Début
     afficher ("entrer un nombre p");
     lire (p);
     si (((n<0) et (p<0)) ou ((n>0) et (p>0))) alors
-            afficher ("leur produit est positif")
+            afficher ("leur produit est positif");
             sinon
             afficher ("leurs produit est negatif");
     finsi
