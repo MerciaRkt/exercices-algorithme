@@ -1,3 +1,5 @@
+//Calcul qui affiche la somme 1!+2!+...+n!
+
 Algorithme Somme de 1!+2!+...+n!
 Variable
        i,n,s,f: entier
