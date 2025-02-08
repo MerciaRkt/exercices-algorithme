@@ -1,4 +1,4 @@
-//somme et moyenne
+//Affiche la moyenne de deux notes
 Algorithme moyenne de deux notes
 Variable
  	a,b,coefa,coefb,m,c,d: reels 
