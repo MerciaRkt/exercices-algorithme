@@ -1,3 +1,5 @@
+//Affiche si le produit de deux  nombres est positif ou negatif
+
 Algorithme produit
 variable n,p: réel;
 Début
