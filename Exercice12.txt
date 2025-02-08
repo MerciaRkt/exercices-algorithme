@@ -9,6 +9,6 @@ Début
     Pour(i<- 1; i<=n; i++)
     s<- s+i;
     FinPour
-    Afficher("La Somme de 1+2+3+...+n est:",s)
+    Afficher("La Somme de 1+2+3+...+n est:",s);
     	
 Fin
